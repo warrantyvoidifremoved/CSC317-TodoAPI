@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --bg-color: #f0f0f0;
+    --box-shadow: rgba(0, 0, 0, 0.1);
+    --display-btn: #4CAF50;
+    --delete-btn: #f44336;
+    --submit-btn: #2196F3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    padding: 20px;
+    background-color: var(--bg-color)
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 35rem;
+    margin: 0 auto;
+}
+
+.block {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px var(--box-shadow);
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    border: 1px solid black;
+}
+
+#displayTodos {
+    background-color: var(--display-btn);
+    color: white;
+}
+
+#submitTodo {
+    background-color: var(--submit-btn);
+    color: white;
+}
+
+#deleteTodo {
+    background-color: var(--delete-btn);
+    color: white;
+}
+
+input {
+    display: block;
+    margin: 5px 0;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}

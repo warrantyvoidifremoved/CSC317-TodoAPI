@@ -1,0 +1,23 @@
+{
+  "name": "csc317-todoapi",
+  "version": "1.0.0",
+  "description": "This repository contains the files for CSC317 assignment Todo API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warrantyvoidifremoved/CSC317-TodoAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warrantyvoidifremoved/CSC317-TodoAPI/issues"
+  },
+  "homepage": "https://github.com/warrantyvoidifremoved/CSC317-TodoAPI#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
