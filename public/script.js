@@ -1,4 +1,3 @@
-
 document.getElementById('displayTodos').addEventListener('click', async () => {
     const response = await fetch('/todos');
     const todos = await response.json();
