@@ -2,9 +2,9 @@
   "name": "csc317-todoapi",
   "version": "1.0.0",
   "description": "This repository contains the files for CSC317 assignment Todo API.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
